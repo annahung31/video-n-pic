@@ -28,7 +28,7 @@ class Video_processor(object):
         # size = (int(vidcap.get(cv2.CAP_PROP_FRAME_WIDTH)), 
         # int(vidcap.get(cv2.CAP_PROP_FRAME_HEIGHT)))
         size = (WIDTH, HEIGHT)
-        out = cv2.VideoWriter('../output/output.mp4', fourcc, fps, size)
+        out = cv2.VideoWriter('../output/output.avi', fourcc, fps, size)
         pics = sorted(glob.glob(os.path.join(pics_dir, '*.jpg'))
 
         for frame in pics:
