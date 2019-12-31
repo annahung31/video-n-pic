@@ -2,10 +2,10 @@
 Turn a video into a sequence of frames or opposite.
 
 
-#Dependency
+# Dependency
 Python 3.7.3
 
-#Install requirement
+# Install requirement
 Run
 ```
 ./src/install.sh
